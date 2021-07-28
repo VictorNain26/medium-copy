@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#banner {
+  padding: 180px;
+  padding-left: 400px;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+}
+
+#banner>h1 {
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+#banner>h3 {
+  color: aliceblue;
+  font-size: 33px;
+  font-weight: lighter;
+}
+
+.article {
+  margin-bottom: 30px;
+}
+
+.article>p {
+  font-size: 19px;
+  font-weight: lighter;
+  line-height: 1.4;
+}
+
+
+.article>h2 {
+  font-size: 26px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+.article>a {
+  font-size: 25px;
+  background-color: rgba(32, 178, 170, 0.2);
+  text-decoration: none;
+  color: black;
+}
+
+.article>a:hover {
+  background-color: rgba(32, 178, 170, 0.5);
+}
+
+#container-article {
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media(max-width: 576px) {
+
+  #banner {
+    padding: 200px;
+    padding-left: 50px;
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+  }
+
+  #banner>h1 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+  }
+
+  #banner>h3 {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+@media(max-width: 768px) {
+
+  #banner {
+    padding: 200px;
+    padding-left: 50px;
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+  }
+
+  #banner>h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+  }
+
+  #banner>h3 {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+
+}
+
+@media(max-width: 1200px) {
+  #banner {
+    padding: 200px;
+    padding-left: 50px;
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+  }
+
+  #banner>h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+  }
+
+  #banner>h3 {
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+}
